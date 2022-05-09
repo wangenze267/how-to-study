@@ -29,7 +29,7 @@ export default {
     description: 'Just playing around.',
     lang: "zh-CN",
     title,
-    head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
+    head: [["link", { rel: "icon", type: "image/x-icon", href: "favicon.ico" }]],
     themeConfig: {
         lastUpdated: "最近更新时间",
         // 顶部右侧导航
