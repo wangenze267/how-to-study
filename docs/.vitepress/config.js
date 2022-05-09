@@ -3,13 +3,13 @@ const getDirectory = (ele) => getChildren("./docs", ele);
 let title = "How to study?";
 const nav = [
   {
-    text: "front-end",
+    text: "前端学习传送门",
     link: "/front-end/",
   },
-//   {
-//     text: "LaTeX",
-//     link: "/LaTeX/",
-//   },
+  {
+    text: "后端学习传送门",
+    link: "/back-end/",
+  },
 //   {
 //     text: "Python",
 //     link: "/Python/",
@@ -33,7 +33,7 @@ export default {
     description: 'Just playing around.',
     lang: "zh-CN",
     title,
-    // head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
+    head: [["link", { rel: "icon", type: "image/x-icon", href: "/favicon.ico" }]],
     themeConfig: {
         lastUpdated: "最近更新时间",
         // 顶部右侧导航
