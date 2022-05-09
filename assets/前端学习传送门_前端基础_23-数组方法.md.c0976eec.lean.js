@@ -1,1 +1,0 @@
-import{_ as n,c as s,o as a,a as p}from"./app.319fec61.js";const d='{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"\u524D\u7AEF\u5B66\u4E60\u4F20\u9001\u95E8/\u524D\u7AEF\u57FA\u7840/23-\u6570\u7EC4\u65B9\u6CD5.md"}',t={},o=p("",1),e=[o];function c(l,r,u,k,i,y){return a(),s("div",null,e)}var g=n(t,[["render",c]]);export{d as __pageData,g as default};
