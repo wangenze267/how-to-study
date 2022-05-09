@@ -4,7 +4,7 @@
 
 ## 关于本站🪐
 
-- 本站地址🔗：[传送门](http://blog.nedwang.cn/) 
+- 本站地址🔗：[传送门](https://blog.nedwang.cn/) 
 - GitHub地址🔗：[传送门](https://github.com/wangenze267/how-to-study)
 
 ### 目的📇
