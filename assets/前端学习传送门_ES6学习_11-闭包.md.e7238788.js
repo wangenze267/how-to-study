@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./app.422228dc.js";const f='{"title":"\u53D8\u91CF\u4F5C\u7528\u57DF","description":"","frontmatter":{},"headers":[],"relativePath":"\u524D\u7AEF\u5B66\u4E60\u4F20\u9001\u95E8/ES6\u5B66\u4E60/11-\u95ED\u5305.md"}',r={};function o(_,c,s,n,p,i){return a(),t("div")}var l=e(r,[["render",o]]);export{f as __pageData,l as default};
