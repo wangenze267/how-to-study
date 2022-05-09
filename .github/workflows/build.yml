@@ -41,6 +41,6 @@ jobs:
       - name: 推送
         uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           BRANCH: gh-page
           FOLDER: docs/.vitepress/dist
