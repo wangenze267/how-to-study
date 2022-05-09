@@ -40,7 +40,7 @@ export default {
         nav: [
         { text: "首页", link: "/" },
         { text: "Ned的博客地址", link: "https://www.wangez.site"},
-        { text: "如何贡献", link: "/"},
+        // { text: "如何贡献", link: "/"},
           // {
           //   text: "Components",
           //   // children: [
