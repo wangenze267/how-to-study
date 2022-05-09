@@ -38,9 +38,10 @@ jobs:
           npm i 
           npm run docs:build
       # 推送
-      - name: 推送
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        # uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
-          BRANCH: gh-page
-          FOLDER: docs/.vitepress/dist
+          branch: gh-page
+          folder: docs/.vitepress/dist
