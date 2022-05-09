@@ -1,0 +1,1 @@
+import{_ as n,c as s,o as a,d as t}from"./app.20b88978.js";const m='{"title":"axios","description":"","frontmatter":{},"headers":[{"level":2,"title":"axios","slug":"axios"}],"relativePath":"front-end-learn/Vue\u57FA\u7840/03-\u8BF7\u6C42.md"}',o={},p=t("",2),e=[p];function c(i,l,u,k,r,d){return a(),s("div",null,e)}var x=n(o,[["render",c]]);export{m as __pageData,x as default};

@@ -1,0 +1,1 @@
+import{_ as a,c as n,o as s,d as t}from"./app.20b88978.js";const v='{"title":"\u52A8\u6001\u7EC4\u4EF6","description":"","frontmatter":{},"headers":[],"relativePath":"front-end-learn/Vue\u57FA\u7840/06-\u52A8\u6001\u7EC4\u4EF6.md"}',p={},e=t("",2),o=[e];function c(l,u,i,k,g,r){return s(),n("div",null,o)}var m=a(p,[["render",c]]);export{v as __pageData,m as default};
