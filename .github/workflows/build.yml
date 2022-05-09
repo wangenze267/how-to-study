@@ -7,7 +7,7 @@ on:
   # Triggers the workflow on push or pull request events but only for the master branch
   push:
     branches:
-      - master
+      - main
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -38,9 +38,10 @@ jobs:
           npm i 
           npm run docs:build
       # 推送
-      - name: 推送
-        uses: JamesIves/github-pages-deploy-action@releases/v3
+      - name: Deploy 🚀
+        uses: JamesIves/github-pages-deploy-action@v4.3.3
+        # uses: JamesIves/github-pages-deploy-action@releases/v3
         with:
-          ACCESS_TOKEN: ${{ secrets.TOKEN }}
-          BRANCH: pages
-          FOLDER: docs/.vitepress/dist
+          token: ${{ secrets.ACCESS_TOKEN }}
+          branch: gh-page
+          folder: docs/.vitepress/dist
