@@ -4,11 +4,11 @@ let title = "How to study?";
 const nav = [
   {
     text: "前端学习传送门",
-    link: "/front-end/",
+    link: "/前端学习传送门/",
   },
   {
     text: "后端学习传送门",
-    link: "/back-end/",
+    link: "/后端学习传送门/",
   },
 //   {
 //     text: "Python",
