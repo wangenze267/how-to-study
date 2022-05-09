@@ -24,6 +24,7 @@
 - Fork本仓库，[地址:https://github.com/wangenze267/how-to-study](https://github.com/wangenze267/how-to-study)
 - 做出**有意义的修改或补充**
 - 提交PR，并耐心等待
+>提交PR请确保本地预览和打包无问题后再进行提交
 ## Q&A📖
 ### 都可以做些什么？💭
 - 对docs内的文档进行完善和补充

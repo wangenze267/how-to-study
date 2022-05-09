@@ -10,18 +10,14 @@ const nav = [
     text: "back-end-learn",
     link: "/back-end-learn/",
   },
-//   {
-//     text: "Python",
-//     link: "/Python/",
-//   },
-//   {
-//     text: "Git",
-//     link: "/Git/",
-//   },
-  // {
-  //   text: "change",
-  //   link: toggleDark,
-  // },
+  /**
+   * 想要增加左侧导航栏分类的请按照如下结构进行添加
+   */
+  //   {
+  //     text: "分类名称",
+  //     link: "/分类路径，请与分类名称保持一致/",
+  //   },
+
 ];
 const sidebar = {};
 nav.forEach((item) => {
@@ -40,23 +36,7 @@ export default {
         nav: [
         { text: "首页", link: "/" },
         { text: "Ned的博客地址", link: "https://www.wangez.site"},
-        // { text: "如何贡献", link: "/"},
-          // {
-          //   text: "Components",
-          //   // children: [
-          //   //   {
-          //   //     text: "CSS",
-          //   //     // link: "/CSS/Flexbox/flex",
-          //   //   },
-          //   // ],
-          // },
         ],
-        // nav: [
-        //     {
-        //         text: "笔记列表",
-        //         items: [...nav],
-        //     },
-        // ],
         // 侧边栏
         sidebar,
     },
