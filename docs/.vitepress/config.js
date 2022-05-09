@@ -3,12 +3,12 @@ const getDirectory = (ele) => getChildren("./docs", ele);
 let title = "How to study?";
 const nav = [
   {
-    text: "前端学习传送门",
-    link: "/前端学习传送门/",
+    text: "front-end-learn",
+    link: "/front-end-learn/",
   },
   {
-    text: "后端学习传送门",
-    link: "/后端学习传送门/",
+    text: "back-end-learn",
+    link: "/back-end-learn/",
   },
 //   {
 //     text: "Python",
@@ -40,6 +40,7 @@ export default {
         nav: [
         { text: "首页", link: "/" },
         { text: "Ned的博客地址", link: "https://www.wangez.site"},
+        { text: "如何贡献", link: "/"},
           // {
           //   text: "Components",
           //   // children: [
